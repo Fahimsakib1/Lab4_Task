@@ -61,7 +61,13 @@ public class Triangle
 			
 		}
 		
-		if ( X !=Y &&  Y!= Z)
+		if ( X !=Y &&  X== Z)
+		{
+			System.out.println("  This Is an Isosceles Triangle ");
+			
+		}
+		
+		if ( X!=Y &&  Y!= Z && X!=Z)
 		{
 			System.out.println("  This is an Scalene Triangle ");
 			
